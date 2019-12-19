@@ -6,9 +6,7 @@ def initialize
 end
 
 def teach
- KNOWLEDGE << string
-   x = KNOWLEDGE.sample(1)
-   x
+  return KNOWLEDGE.sample
 end
   
   
